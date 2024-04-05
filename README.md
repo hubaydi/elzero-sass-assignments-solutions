@@ -1,4 +1,6 @@
-<img align="center" src="./sass-logo-7702.png">
+<div align="center">
+<img src="./sass-logo-7702.png">
+</div>
 ---
 
 **This repository contains all the solutions of the Sass course, from elzero web school Youtube channel and the web**.
