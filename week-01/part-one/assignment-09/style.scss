@@ -1,0 +1,7 @@
+// Helpers
+@use "./project_folder/helpers/vars";
+@use "./project_folder/helpers/functions";
+
+// Layout
+@use "./project_folder/layout/header";
+@use "./project_folder/layout/footer";

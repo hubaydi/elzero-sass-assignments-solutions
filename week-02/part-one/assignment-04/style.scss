@@ -1,0 +1,10 @@
+$init: 1;
+
+@while $init <= 5 {
+  .circle-#{$init * 100} {
+    width: #{$init * 100}px;
+    height: #{$init * 100}px;
+    border: calc(#{$init * 100px} / 2);
+  }
+  $init: $init + 1;
+}

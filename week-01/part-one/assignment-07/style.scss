@@ -1,0 +1,35 @@
+%font_size_20 {
+  font-size: 20px;
+}
+
+.box h2 {
+  @extend %font_size_20;
+}
+.box p {
+  @extend %font_size_20;
+}
+
+
+
+$media_small: "max-width: 575px";
+
+@media ($media_small) {
+  %font_size_16 {
+    font-size: 16px;
+  }
+  %bold {
+    font-weight: bold;
+  }
+  .box h2 {
+    @extend %font_size_16;
+  }
+  .box p {
+    @extend %font_size_16;
+  }
+  .box h2 span, .box p span {
+    @extend %bold;
+  }
+  .box p span {
+    @extend %bold;
+  }
+}

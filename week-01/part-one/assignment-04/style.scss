@@ -1,0 +1,26 @@
+.parent {
+  & + .sibling {
+    margin: auto {
+      top: 10px;
+    }
+    & ~ .last {
+      padding: 10px;
+    }
+  }
+}
+
+// Output
+
+// this style is for the .sibling element 
+// next to .parent element
+.parent + .sibling {
+  margin: auto;
+  margin-top: 10px;
+}
+
+// this style will be applied to every element that
+// is next to the .sibling element, that have .last class.
+.parent + .sibling ~ .last {
+  padding: 10px;
+}
+
